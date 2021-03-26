@@ -1,0 +1,158 @@
+body
+{
+    margin: 80px 385px 0px 385px;
+}
+
+.image-girl
+{
+    display: block;
+    width: 263px;
+    height: 280px;
+    border-radius: 5px;
+    background-color: #132d36;
+    float: left;
+}
+
+.Quote
+{
+    display: block;
+    position: absolute;
+    margin: 0px 0px 5px 308px;
+}
+
+.Quote__image-quotes
+{
+    width: 108px;
+    height: 68px;
+    background-color: #f5f5f5;
+    margin-top: 41px;
+}
+
+.list
+{
+    display: block;
+    float: left;  
+    margin-right: 100px;
+    margin-top: 14px;
+}
+
+.list__Favorite-writers
+{
+    font-size: 23px;
+    color: #15a98c;
+    font-family: "Open Sans";
+}
+
+ul
+{
+    margin: -14px 0px 0px -23px;
+    font-size: 15px;
+    line-height: 29px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.list__Favorite-movies
+{
+    margin-top: 33px;
+    font-size: 23px;
+    color: #15a98c;
+    font-family: "Open Sans";
+}
+
+ol
+{
+    margin: -14px 0px 0px -26px;
+    font-size: 15px;
+    line-height: 29px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.Quote__style-text
+{
+    margin: -29px 0px 0px 51px;
+    font-size: 24px;
+    line-height: 10px;
+    color: #848484;
+    font-style: italic;
+    font-family: "Georgia";
+}
+
+.Quote__deadline
+{
+    margin: 0px 0px 0px 51px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.Text
+{
+    display: block;
+    position: absolute;
+    margin: 0px 0px 5px 308px;
+}
+
+.Text__Jane-Doe
+{
+    font-size: 44px;
+    margin: 28px 0px 8px 0px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.Text__line
+{
+    width: 50px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+}
+
+.Text__text-George
+{
+    width: 401px;
+    height: 148px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #555555;
+    font-family: "Georgia";
+    margin: 29px 0px 0px 3px;
+}
+
+.Text__hobby
+{
+    height: 16px;
+    font-size: 33px;
+    line-height: 49px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.Text__text-sleep
+{
+    margin-top: 36px;
+    width: 467px;
+    height: 142px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.Text__message-me
+{
+    line-height: 35px;
+    color: #098d72;
+    font-family: "Georgia";
+}
+
+.clear
+{
+    clear: left;
+}
