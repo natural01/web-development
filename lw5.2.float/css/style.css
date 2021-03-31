@@ -1,31 +1,61 @@
-body
+.background-top
 {
-    margin: 80px 385px 0px 385px;
+    margin-top: 50px;
 }
 
-.image-girl
+.page
 {
+    margin: 100px 460px;
     display: block;
-    width: 263px;
-    height: 280px;
+}
+
+.image-profile
+{
+    margin-left: 10px;
+    display: block;
+    width: 330px;
+    height: 350px;
     border-radius: 5px;
     background-color: #132d36;
     float: left;
 }
 
-.Quote
+.quote
 {
     display: block;
     position: absolute;
-    margin: 0px 0px 5px 308px;
+    margin: 0px 0px 5px 400px;
 }
 
-.Quote__image-quotes
+.quote__image-quotes
 {
-    width: 108px;
-    height: 68px;
+    position: absolute;
+    width: 136px;
+    height: 85px;
     background-color: #f5f5f5;
-    margin-top: 41px;
+    margin-top: 51px;
+}
+
+.quote__text
+{
+    position: absolute;
+    margin: 104px 0 0 62px;
+    width: 500px;
+    line-height: 15px;
+    font-size: 28px;
+    color: #848484;
+    font-style: italic;
+    font-family: "Georgia";
+}
+
+.quote__author
+{
+    margin: 205px 0 0 67px;
+    font-size: 16px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Open Sans";
 }
 
 .list
@@ -36,119 +66,108 @@ body
     margin-top: 14px;
 }
 
-.list__Favorite-writers
+.list__list-name
 {
-    font-size: 23px;
-    color: #15a98c;
-    font-family: "Open Sans";
-}
-
-ul
-{
-    margin: -14px 0px 0px -23px;
-    font-size: 15px;
-    line-height: 29px;
-    color: #555555;
-    font-family: "Georgia";
-}
-
-.list__Favorite-movies
-{
-    margin-top: 33px;
-    font-size: 23px;
-    color: #15a98c;
-    font-family: "Open Sans";
-}
-
-ol
-{
-    margin: -14px 0px 0px -26px;
-    font-size: 15px;
-    line-height: 29px;
-    color: #555555;
-    font-family: "Georgia";
-}
-
-.Quote__style-text
-{
-    margin: -29px 0px 0px 51px;
+    margin: 0px 11px;
+    margin-top: 32px;
     font-size: 24px;
-    line-height: 10px;
-    color: #848484;
-    font-style: italic;
-    font-family: "Georgia";
-}
-
-.Quote__deadline
-{
-    margin: 0px 0px 0px 51px;
-    font-size: 14px;
-    line-height: 14px;
-    color: #333333;
+    line-height: 32px;
     font-weight: 600;
+    color: #15a98c;
     font-family: "Open Sans";
 }
 
-.Text
+.list__all-list-dots
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 26px;
+    height: 150px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.list__dots::before
+{
+    content: "\2022";
+}
+
+.list__all-list
+{
+    padding: 0;
+    margin: 15px 33px;
+    height: 150px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.сontent
 {
     display: block;
     position: absolute;
-    margin: 0px 0px 5px 308px;
+    margin: 0px 0px 5px 400px;
 }
 
-.Text__Jane-Doe
+.сontent__text-name-top
 {
-    font-size: 44px;
-    margin: 28px 0px 8px 0px;
+    font-size: 48px;
+    line-height: 39px;
+    margin: 48px 0 26px 7px;
     color: #333333;
     font-weight: 700;
     font-family: "Open Sans";
 }
 
-.Text__line
+.сontent__text-name-bottom
 {
-    width: 50px;
-    height: 6px;
-    border-radius: 3px;
-    background-color: #45c3aa;
-}
-
-.Text__text-George
-{
-    width: 401px;
-    height: 148px;
-    font-size: 15px;
-    line-height: 26px;
-    color: #555555;
-    font-family: "Georgia";
-    margin: 29px 0px 0px 3px;
-}
-
-.Text__hobby
-{
-    height: 16px;
-    font-size: 33px;
-    line-height: 49px;
+    font-size: 36px;
+    margin: 30px 0 0 0;
     color: #333333;
     font-weight: 400;
     font-family: "Open Sans";
 }
 
-.Text__text-sleep
+.сontent__line
 {
-    margin-top: 36px;
-    width: 467px;
-    height: 142px;
-    font-size: 16px;
-    line-height: 26px;
+    width: 64px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+}
+
+.сontent__text-top
+{
+    margin: 38px 0 0 3px;
+    width: 511px;
+    height: 200px;
+    font-size: 19px;
+    line-height: 33px;
     color: #555555;
     font-family: "Georgia";
 }
 
-.Text__message-me
+.сontent__text-bottom
 {
-    line-height: 35px;
-    color: #098d72;
+    margin: 12px 0 0 3px;
+    width: 570px;
+    height: 200px;
+    font-size: 19px;
+    line-height: 33px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.сontent__message-me
+{
+    width: 562px;
+    height: 263px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #15a98b;
     font-family: "Georgia";
 }
 
