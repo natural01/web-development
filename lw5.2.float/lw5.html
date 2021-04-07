@@ -7,44 +7,129 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
   </head> 
-  <body>
-    <img src="images/background.jpg" class="background-top">
+  <body class="web-page">
     <div class="page">
-      <img src="images/image.jpg" class="image-profile">
-      <div class="quote">
-        <img src="images/quotes.jpg" class="quote__image-quotes">
-        <div class="quote__text">
-          <p>Мы берем на себя много, потому</p>
-          <p>что мало чего боимся</p>
+      <div class="top-menu">
+        <span class="top-menu__block">
+          <img class="top-menu__image" src="images/icon1.png">
+          Обо мне
+        </span>
+        <span class="top-menu__block">
+          <img class="top-menu__image" src="images/icon2.png">
+          Мое хобби
+        </span>
+        <span class="top-menu__block">
+          <img class="top-menu__image" src="images/icon3.png">
+          Любимые фильмы
+        </span>
+      </div>  
+    </div>
+    <div class="page-top"></div>
+    <div class="page">
+      <div class="page-content">
+        <img src="images/image.jpg" class="image-profile page-content__image">
+        <div class="quote">
+          <p class="quote__text">Мы берем на себя много, потому что мало чего боимся</p>
+          <p class="quote__author">&#8212; Том Демарко. Deadline</p>
+        </div>  
+        <div class="clear"></div>
+        <div class="list">
+          <p class="list__list-name">Любимые писатели:</p>    
+          <ul class="list__author-list">
+            <li class="list__dots">Айзек Азимов</li>
+            <li class="list__dots">Говард Лавкрафт</li>
+            <li class="list__dots">Дмитрий Глуховский</li>
+            <li class="list__dots">Чак Паланик</li>
+          </ul>
+          <p class="list__list-name">Любимые фильмы:</p>    
+          <ol class="list__movie-list">
+            <li class="list__num-first">Шоу Трумэна</li>
+            <li class="list__num-second">Малхолланд Драйв</li>
+            <li class="list__num-second">Семь жизней</li>
+            <li class="list__num-second">Гравитация</li>
+          </ol>
+        </div>  
+        <div class="сontent">
+          <p class="сontent__text-name-top">Jane Doe</p>
+          <p class="сontent__text сontent__text-top">В 1930-е годы прошлого века физик Джордж Гамоу из университета штата Колорадо начал публиковать мини-сериал рассказов о неком мисере Томпкинсе, банковском клерке средних лет. Мистер Томпкинс, как явствовало из этих историй, интересовался современной наукой.</p>
+          <p class="сontent__text-name-bottom">Мое хобби</p>
+          <p class="сontent__text сontent__text-bottom">Он регулярно посещал вечерние лекции местного профессора и, разумеется, всегда засыпал на самом интересном месте. А когда просыпался, то обноруживал себя в каком-нибудь параллельном мире, где один из основных законов физики дйствовалне так, как в его мире</p>
+          <span>
+            <a href="https://vk.com/pontii.pilat" class="сontent__message-me">
+            Напиши мне 
+            </a>
+            <span class="link__arrow">&#8594;</span>
+          </span>
         </div>
-        <p class="quote__author">&#8212; Том Демарко.Deadline</p>
-      </div>  
-      <div class="clear"></div>
-      <div class="list">
-        <p class="list__list-name">Любимые писатели:</p>    
-        <ul class="list__all-list-dots">
-          <li class="list__dots">Айзек Азимов</li>
-          <li class="list__dots">Говард Лавкрафт</li>
-          <li class="list__dots">Дмитрий Глуховский</li>
-          <li class="list__dots">Чак Паланик</li>
-        </ul>
-        <p class="list__list-name">Любимые фильмы:</p>    
-        <ol class="list__all-list">
-          <li>Шоу Трумэна</li>
-          <li>Малхоланд Драйв</li>
-          <li>Семь жизней</li>
-          <li>Гравитация</li>
-        </ol>
-      </div>  
-      <div class="сontent">
-        <p class="сontent__text-name-top">Jane Doe</p>
-        <img src="images/line.jpg" class="сontent__line">
-        <p class="сontent__text-top">В 1930-е годы прошлого века физик Джордж Гамоу из университета штата Колорадо начал публиковать мини-сериал рассказов о неком мисере Томпкинсе, банковском клерке средних лет. Мистер Томпкинс, как явствовало из этих историй, интересовался современной наукой.</p>
-        <p class="сontent__text-name-bottom">Мое хобби</p>
-        <p class="сontent__text-bottom">Он регулярно посещал вечерние лекции местного профессора и, разумеется, всегда засыпал на самом интересном месте. А когда просыпался, то обноруживал себя в каком-нибудь параллельном мире, где один из основных законов физики дйствовалне так, как в его мире</p>
-        <a href="https://vk.com/pontii.pilat" class="сontent__message-me">Напиши мне &#8594;</a>
+        <div class="clear"></div>
       </div>
-      <div class="clear"></div>
+      <div class="content-center">
+        <p class="content-center__content-name">Любимые фильмы</p>
+        <div class="content-center__content">
+          <div class="content-center__blocks">
+            <img src="images/first.jpg">
+            <p class="content-center__blog-name">Побег из Шоушенка</p>
+            <p class="content-center__text">Успешный банкир Энди Дюфрейн обвинен в убийстве собственной жены и ее любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решетки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, вооруженный живым умом и доброй душой, отказывается мириться с приговором судьбы и начинает разрабатывать невероятно дерзкий план своего освобождения.</p>
+          </div>
+          <div class="content-center__blocks">
+            <img src="images/Second.jpg">
+            <p class="content-center__blog-name">Наркоз</p>
+            <p class="content-center__text">Клай Бересфорд вынужден лечь под нож. Однако в процессе операции на сердце он неожиданно приходит в себя. Находясь в парализованном состоянии, будучи не в силах пошевелить ни рукой, ни ногой, он, тем не менее, чувствует каждое касание скальпеля к своей плоти…</p>
+          </div>
+          <div class="content-center__blocks">
+            <img src="images/Third.jpg">
+            <p class="content-center__blog-name">Астрал</p>
+            <p class="content-center__text">Джош и Рене переезжают со своими детьми в новый дом, но не успевают толком распаковать вещи, как начинаются странные события. Необъяснимо перемещаются предметы, в детской звучат странные звуки… Но в настоящий ужас приходят родители, когда их десятилетний сын Далтон впадает в кому. Все усилия врачей в больнице помочь мальчику безуспешны.</p>
+          </div>
+          <div class="content-center__blocks">
+            <img src="images/Fourth.jpg">
+            <p class="content-center__blog-name">Гравитация</p>
+            <p class="content-center__text">Доктор Райан Стоун, блестящий специалист в области медицинского инжиниринга, отправляется в свою первую космическую миссию под командованием ветерана астронавтики Мэтта Ковальски, для которого этот полет — последний перед отставкой. Но во время, казалось бы, рутинной работы за бортом случается катастрофа. 
+              Шаттл уничтожен, а Стоун и Ковальски остаются совершенно одни; они находятся в связке друг с другом, и все, что они могут, — это двигаться по орбите в абсолютно черном пространстве без всякой связи с Землей и какой-либо надежды на спасение.</p>
+          </div>
+        </div>
+        <div class="content-center__more-informaion">
+          <button class="content-center__buttom"><span class="buttom-name">Все фильмы</span></button>
+        </div>
+      </div>
+      <div class="check-in">
+        <div class="check-in__block-name">
+          <p class="check-in__name">НАПИШИ МНЕ</p>
+        </div>
+        <div class="check-in__input"> 
+          <div class="check-in__input check-in__block">
+            <p class="check-in__input__block__name">Ваше имя <span class="star">*</span></p>
+            <input class="check-in__input__block__entry-field" type="text">
+          </div>
+          <div class="check-in__input__block">
+            <p class="check-in__input__block__name">Ваш email <span class="star">*</span></p>
+            <input class="check-in__input__block__entry-field" type="text">
+          </div>
+          <div class="check-in__input__block">
+            <p class="check-in__input__block__name">Откуда вы?</p>
+            <select class="check-in__input__block__select" type="text" value="Россия">
+              <option>Россия</option>
+              <option>Украина</option>
+              <option>Казахстан</option>
+            </select>
+          </div>
+          <div class="check-in__input__block">
+            <p class="check-in__input__block__name__choice">Ваш пол</span></p>
+            <p class="check-in__input__block__choice"><input class="dot" type="radio" name="sex" value="man">Мужской</p>
+            <p class="check-in__input__block__choice"><input class="dot" type="radio" name="sex" value="wom">Женский</p>
+          </div>
+          <div class="check-in__input__block">
+            <p class="check-in__input__block__text-area">Ваше сообщение <span class="star">*</span></p>
+            <textarea class="text-area"></textarea>
+          </div>
+          <div class="check-in__input__block">
+            <button class="check-in__input__buttom"><span class="buttom-name">Отправить</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="footer__content">© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»</p>
+      </div>
     </div>
   </body> 
 </html>

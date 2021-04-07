@@ -1,20 +1,68 @@
-.background-top
+.web-page
 {
-    margin-top: 50px;
+    margin: 0;
+    padding: 0; 
 }
 
 .page
 {
-    margin: 100px 460px;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1308px;
+}
+
+.top-menu
+{
+    position: relative;
+    top: 11px;
+    margin: 0px 621px 228px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu__image
+{
+    margin-right: 6px;
+}
+
+.top-menu__block
+{
+    display: block;
+    float: left;
+    margin: 0 18px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Georgia";
+}
+
+.icone
+{
+    margin-right: 10px;
+}
+
+.page-top
+{
+    top: 50px;
+    position: absolute;
+    height: 400px;
+    width: 1920px;
+    background-image: url(../images/background.jpg);
+    background-color: #c7b39b;
+}
+
+.page-content
+{
+    margin-left: 122px;
     display: block;
 }
 
 .image-profile
 {
-    margin-left: 10px;
+    margin: 0 64px 15px 0;
+    max-width: 330px;
+    position: relative;
     display: block;
-    width: 330px;
-    height: 350px;
     border-radius: 5px;
     background-color: #132d36;
     float: left;
@@ -22,54 +70,44 @@
 
 .quote
 {
+    top: 25px;
+    max-width: 959px;
     display: block;
-    position: absolute;
-    margin: 0px 0px 5px 400px;
-}
-
-.quote__image-quotes
-{
-    position: absolute;
-    width: 136px;
-    height: 85px;
-    background-color: #f5f5f5;
-    margin-top: 51px;
+    margin: 0 0 5px;
+    position: relative;
 }
 
 .quote__text
 {
-    position: absolute;
-    margin: 104px 0 0 62px;
-    width: 500px;
-    line-height: 15px;
+    line-height: 43px;
+    margin-bottom: 0;
     font-size: 28px;
-    color: #848484;
+    color: #ffffff;
     font-style: italic;
     font-family: "Georgia";
 }
 
 .quote__author
 {
-    margin: 205px 0 0 67px;
     font-size: 16px;
-    line-height: 42px;
-    color: #333333;
+    line-height: 12px;
+    color: #ffffff;
     font-weight: 600;
     font-family: "Open Sans";
+    left: 3px;
+    position: relative;
 }
 
 .list
 {
     display: block;
     float: left;  
-    margin-right: 100px;
-    margin-top: 14px;
+    margin-right: 146px;
 }
 
 .list__list-name
 {
-    margin: 0px 11px;
-    margin-top: 32px;
+    margin: 32px 0 0 0;
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
@@ -77,46 +115,76 @@
     font-family: "Open Sans";
 }
 
-.list__all-list-dots
+.list__author-list
 {
     list-style-type: none;
     padding: 0;
-    margin: 15px 26px;
+    margin: 15px 7px;
     height: 150px;
     font-size: 19px;
     line-height: 36px;
     color: #555555;
     font-family: "Georgia";
+}
+
+.list__dots
+{
+    position: relative;
+    padding-left: 13px;
+    line-height: 37px;
+    bottom: 3px;
 }
 
 .list__dots::before
 {
-    content: "\2022";
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #333;
+    position: absolute;
+    border-radius: 3px;
+    right: 232px;
+    top: 15px
+    ;
 }
 
-.list__all-list
+.list__movie-list
 {
     padding: 0;
-    margin: 15px 33px;
+    margin: 12px 17px;
     height: 150px;
     font-size: 19px;
     line-height: 36px;
     color: #555555;
     font-family: "Georgia";
+}
+
+.list__num-first
+{
+    position: relative;
+    top: 1px;
+}
+
+.list__num-second
+{
+    position: relative;
+    top: 2px;
+    left: 2px;
 }
 
 .сontent
 {
     display: block;
-    position: absolute;
-    margin: 0px 0px 5px 400px;
+    position: relative;
+    bottom: 176px;
+    max-width: 950px;
 }
 
 .сontent__text-name-top
 {
     font-size: 48px;
     line-height: 39px;
-    margin: 48px 0 26px 7px;
     color: #333333;
     font-weight: 700;
     font-family: "Open Sans";
@@ -124,26 +192,32 @@
 
 .сontent__text-name-bottom
 {
+    position: relative;
+    right: 7px;
+    bottom: 2px;
     font-size: 36px;
-    margin: 30px 0 0 0;
     color: #333333;
     font-weight: 400;
     font-family: "Open Sans";
 }
 
-.сontent__line
+.сontent__text-name-top::after
 {
-    width: 64px;
+    margin: 34px 0 45px 390px;
+    content: "";
+    width: 59px;
     height: 6px;
     border-radius: 3px;
+    display: block;
     background-color: #45c3aa;
 }
 
 .сontent__text-top
 {
-    margin: 38px 0 0 3px;
-    width: 511px;
-    height: 200px;
+    max-width: 901px;
+    position: relative;
+    bottom: 4px;
+    right: 5px;
     font-size: 19px;
     line-height: 33px;
     color: #555555;
@@ -152,9 +226,10 @@
 
 .сontent__text-bottom
 {
-    margin: 12px 0 0 3px;
-    width: 570px;
-    height: 200px;
+    position: relative;
+    left: 389px;
+    bottom: 27px;
+    max-width: 565px;
     font-size: 19px;
     line-height: 33px;
     color: #555555;
@@ -163,15 +238,287 @@
 
 .сontent__message-me
 {
-    width: 562px;
-    height: 263px;
+    position: relative;
+    left: 389px;
+    bottom: 4px;
     font-size: 19px;
     line-height: 32px;
     color: #15a98b;
     font-family: "Georgia";
 }
 
+.link__arrow
+{
+    color: #15a98b;
+    position: relative;
+    left: 392px;
+    bottom: 4px; 
+}
+
+.content-center
+{
+    max-width: 1240px;
+    position: relative;
+    bottom: 123px;
+    display: block;
+    background-color: #f9f9f9;
+}
+
+.content-center__content
+{
+    margin-bottom: 631px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-center__content-name
+{
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+}
+
+.content-center__blocks
+{
+    margin-top: 23px;
+    height: 189px;
+}
+
+.content-center__blog-name
+{
+    position: relative;
+    right: 2px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.content-center__text
+{
+    position: relative;
+    bottom: 3px;
+    max-width: 285px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.content-center__more-informaion
+{
+    margin: 43px 389px 0 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-center__buttom
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98c;
+}
+
+.buttom-name
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+}
+
+.content-center__buttom:hover
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+.check-in
+{
+    height: 817px;
+    position: absolute;
+    margin-top: 1048px;
+}
+
+.check-in__blok-name
+{
+    width: 1894px;
+    display: flex;
+    justify-content: center;
+}
+
+.check-in__name
+{
+    width: 748px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.check-in__name::after
+{
+    margin: 23px 26px 0px 21px;
+    content: "";
+    width: 199px;
+    height: 1px;
+    border-radius: 3px;
+    display: block;
+    background-color: #c4c4c4;
+    float: right;
+}
+
+.check-in__name::before
+{
+    margin: 23px 21px 0px 24px;
+    content: "";
+    width: 200px;
+    height: 1px;
+    border-radius: 3px;
+    display: block;
+    background-color: #c4c4c4;
+    float: left;
+}
+
+.check-in__input
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.check-in__input__block
+{
+    height: 109px;
+    width: 532px;
+    display: block;
+}
+
+.check-in__input__block__name
+{
+    margin: 34px 0 4px 0;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.check-in__input__block__entry-field
+{
+    width: 532px;
+    height: 43px;
+    border-radius: 3px;
+    border: 2px solid #c4c4c4;
+    outline: none;
+}
+
+.check-in__input__block__select
+{
+    width: 541px;
+    height: 49px;
+    border-radius: 3px;
+    border: 2px solid #c4c4c4;
+}
+
+.check-in__input__block__entry-field:hover,
+.check-in__input__block__entry-field:focus
+{
+    border: 2px solid #45c3aa;
+}
+
+.check-in__input__block__name__choice
+{
+    margin: 68px 0 4px 0;
+    font-size: 20px;
+    line-height: 2px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.check-in__input__block__choice
+{
+    margin-right: 39px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+    float: left;
+}
+
+.dot
+{
+    margin: 0 8px 0 1px;
+}
+
+.check-in__input__block__text-area
+{
+    margin: 48px 0 4px 0;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.check-in__input__buttom
+{
+    margin-top: 174px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98c;
+}
+
+.check-in__input__buttom:hover
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+.text-area
+{
+    height: 143px;
+    width: 534px;
+}
+
+.star
+{
+    color:red;
+}
+
+.footer
+{
+    top: 1981px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.footer__content
+{
+    margin-top: 17px;
+    width: 841px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
 .clear
 {
-    clear: left;
+    clear: both;
 }
