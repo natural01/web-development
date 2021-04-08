@@ -255,13 +255,19 @@
     bottom: 4px; 
 }
 
+.background-center
+{
+    position: relative;
+    bottom: 159px;
+    background-color: #f9f9f9;
+}
+
 .content-center
 {
     max-width: 1240px;
     position: relative;
-    bottom: 123px;
+    top: 1px;
     display: block;
-    background-color: #f9f9f9;
 }
 
 .content-center__content
@@ -274,7 +280,9 @@
 
 .content-center__content-name
 {
-    margin-bottom: 10px;
+    position: relative;
+    top: 35px;
+    margin-bottom: 45px;
     font-size: 36px;
     line-height: 42px;
     color: #333333;
@@ -317,6 +325,7 @@
 
 .content-center__buttom
 {
+    cursor: pointer;
     width: 220px;
     height: 50px;
     border-radius: 5px;
@@ -341,25 +350,22 @@
 
 .check-in
 {
-    height: 817px;
-    position: absolute;
-    margin-top: 1048px;
+    position: relative;
+    bottom: 89px;
 }
 
-.check-in__blok-name
+.check-in__block-name
 {
-    width: 1894px;
     display: flex;
     justify-content: center;
 }
 
 .check-in__name
 {
-    width: 748px;
+    margin-right: 119px;
     font-size: 36px;
     line-height: 42px;
     color: #333333;
-    font-weight: 300;
     font-family: "Open Sans";
 }
 
@@ -389,15 +395,18 @@
 
 .check-in__input
 {
+    margin-right: 53px;
+    position: relative;
+    bottom: 1px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.check-in__input__block
+.check-in__block
 {
     height: 109px;
-    width: 532px;
+    width: 593px;
     display: block;
 }
 
@@ -411,7 +420,7 @@
     font-family: "Open Sans";
 }
 
-.check-in__input__block__entry-field
+.check-in__entry-field
 {
     width: 532px;
     height: 43px;
@@ -420,21 +429,29 @@
     outline: none;
 }
 
-.check-in__input__block__select
+.check-in__select
 {
+    background-image: url("../images/select-background.svg");
     width: 541px;
     height: 49px;
     border-radius: 3px;
     border: 2px solid #c4c4c4;
+    outline: none;
 }
 
-.check-in__input__block__entry-field:hover,
-.check-in__input__block__entry-field:focus
+.check-in__entry-field:hover,
+.check-in__entry-field:focus
 {
     border: 2px solid #45c3aa;
 }
 
-.check-in__input__block__name__choice
+.check-in__select:hover,
+.check-in__select:focus
+{
+    border: 2px solid #45c3aa;
+}
+
+.check-in__choice-name
 {
     margin: 68px 0 4px 0;
     font-size: 20px;
@@ -444,7 +461,7 @@
     font-family: "Open Sans";
 }
 
-.check-in__input__block__choice
+.check-in__choice
 {
     margin-right: 39px;
     font-size: 18px;
@@ -460,18 +477,18 @@
     margin: 0 8px 0 1px;
 }
 
-.check-in__input__block__text-area
+.check-in__text-area
 {
     margin: 48px 0 4px 0;
     font-size: 20px;
     line-height: 32px;
     color: #333333;
-    font-weight: 400;
     font-family: "Open Sans";
 }
 
 .check-in__input__buttom
 {
+    cursor: pointer;
     margin-top: 174px;
     width: 220px;
     height: 50px;
@@ -491,6 +508,15 @@
 {
     height: 143px;
     width: 534px;
+    border-radius: 3px;
+    border: 2px solid #c4c4c4;
+    outline: none;
+}
+
+.text-area:hover,
+.text-area:focus
+{
+    border: 2px solid #45c3aa;
 }
 
 .star
@@ -500,7 +526,7 @@
 
 .footer
 {
-    top: 1981px;
+    top: 74px;
     height: 70px;
     display: flex;
     justify-content: center;
